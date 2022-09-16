@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokemon-site/static/css/main.dd5ba242.css",
+    "main.js": "/pokemon-site/static/js/main.9345c9ad.js",
+    "static/js/787.fad21b27.chunk.js": "/pokemon-site/static/js/787.fad21b27.chunk.js",
+    "static/media/rocket-team.svg": "/pokemon-site/static/media/rocket-team.1c0c9d768f93d1e2fa87228f8078064a.svg",
+    "static/media/homepoke.svg": "/pokemon-site/static/media/homepoke.79941b08eb9b35af79b83119f5ae42f2.svg",
+    "static/media/pokemon.svg": "/pokemon-site/static/media/pokemon.e16637d571c395f9135629faba66d161.svg",
+    "static/media/pokeball.svg": "/pokemon-site/static/media/pokeball.11e69f662e3bde22e0ab2eb28e44dce6.svg",
+    "static/media/pokeball-vector.svg": "/pokemon-site/static/media/pokeball-vector.f1451009b88901a2b6d8845c9d05fc77.svg",
+    "index.html": "/pokemon-site/index.html",
+    "static/media/trash.svg": "/pokemon-site/static/media/trash.d55ba7a6c87c02d88d37de2110530e0e.svg",
+    "static/media/close.svg": "/pokemon-site/static/media/close.502a6953d866577db5477fe075100ed0.svg",
+    "main.dd5ba242.css.map": "/pokemon-site/static/css/main.dd5ba242.css.map",
+    "main.9345c9ad.js.map": "/pokemon-site/static/js/main.9345c9ad.js.map",
+    "787.fad21b27.chunk.js.map": "/pokemon-site/static/js/787.fad21b27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd5ba242.css",
+    "static/js/main.9345c9ad.js"
+  ]
+}
