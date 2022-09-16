@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Homepage from "./pages/Homepage";
+import Pokedex from "./pages/Pokedex";
+import NotFound from "./pages/NotFound";
+import MyPokemon from "./pages/MyPokemon";
+import { useDispatch } from "react-redux";
+import { pokebagActions } from "./components/store/pokebag-slice";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const dispatch = useDispatch();
+  const bagSessionData = JSON.parse(sessionStorage.getItem("bagData"));
+  if (bagSessionData) {
+    dispatch(pokebagActions.initiateBag(bagSessionData));
+  }
+
+  return ( 
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/pokedex" element={<Pokedex />} />
+        <Route path="/my-pokemon" element={<MyPokemon />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
   );
 }
 

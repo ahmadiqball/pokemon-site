@@ -1,0 +1,81 @@
+/***** Type CSS *****/
+
+.fire {
+    background-color: rgb(252, 113, 58);
+}
+
+.water {
+    background-color: rgb(67, 153, 252);
+}
+
+.grass {
+    background-color: rgb(75, 209, 75);
+}
+
+.rock {
+    background-color: rgb(131, 81, 52);
+}
+
+.electric {
+    background-color: rgb(255, 226, 60);
+}
+
+.shadow {
+    background-color: rgb(76, 51, 83);
+}
+
+.bug {
+    background-color: rgb(168, 255, 7);
+}
+
+.dragon {
+    background-color: rgb(206, 31, 31);
+}
+
+.flying {
+    background-color: rgb(42, 191, 218);
+}
+
+.ice {
+    background-color: rgb(144, 220, 255);
+}
+
+.ground {
+    background-color: rgb(102, 48, 32);
+}
+
+.poison {
+    background-color: rgb(158, 13, 158);
+}
+
+.steel {
+    background-color: grey;
+}
+
+.dark {
+    background-color: rgb(76, 71, 71);
+}
+
+.normal {
+    background-color: rgb(252, 208, 13);
+}
+
+.fighting {
+    background-color: rgb(255, 123, 0);
+}
+
+.ghost {
+    background-color: rgb(196, 196, 196);
+}
+
+.unknown {
+    background-color: rgb(54, 0, 99);
+}
+
+.fairy {
+    background-color: rgb(144, 228, 8);
+}
+
+.psychic {
+    background-color: rgb(255, 9, 202);
+}

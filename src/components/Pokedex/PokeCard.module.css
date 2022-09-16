@@ -1,0 +1,102 @@
+.pokecard {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 8px -2px black;
+    display: flex;
+    overflow: hidden;
+    height: 10rem;
+    background-color: var(--white);
+}
+
+.pokecard:hover {
+    cursor: pointer;
+}
+
+.desc {
+    width: 40%;
+    padding: 5% 0 5% 5%;
+}
+
+.desc h4 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+}
+
+.pokeImg {
+    height: 80%;
+    max-width: 80%;
+    z-index: 1;
+}
+
+.pokeImg:hover {
+    height: 90%;
+    max-width: 95%;
+}
+
+.pokeball {
+    position: absolute;
+    z-index: 0;
+    max-width: 100%;
+    right: -20%;
+    bottom: -40%;
+    transform: rotate(25deg);
+    opacity: 0.4;
+}
+
+.stats {
+    display: flex;
+    gap: 0.5rem;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stat p {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.round {
+    border: solid 3px var(--dark);
+    border-radius: 50%;
+    height: 2.25rem;
+    width: 2.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.types {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.2rem;
+}
+
+.type {
+    text-transform: capitalize;
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0.15rem;
+    margin-left: 0;
+    color: white;
+    padding: 0.1rem 0;
+}
