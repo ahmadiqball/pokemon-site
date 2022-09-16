@@ -188,7 +188,7 @@
         flex-direction: column-reverse;
         align-items: center;
         padding: 1rem;
-        gap: 1.5rem;
+        gap: 0.5rem;
     }
 
     .detail {
@@ -199,12 +199,16 @@
     .images {
         height: 40vh;
         width: 100%;
+        gap: 0.5rem;
+    }
 
+    .imageWrapper {
+        height: 80%;
     }
 
     .pokeImg {
-        height: 80%;
-        max-width: 95%;
+        height: 100%;
+        max-width: 100%;
         width: auto;
         margin: auto;
     }
